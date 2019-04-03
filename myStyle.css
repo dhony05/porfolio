@@ -14,7 +14,7 @@ body, html
 	background-image: url('./img/canion.JPG') ;
 	min-height: 100%;
 	postion:relative;
-	opacity: 0.90; 
+	opacity: 0.90;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -79,7 +79,7 @@ nav
 {
 	list-style: none;
 }
-.nav-links a 
+.nav-links a
 {
 	color:#fff;
 	text-decoration: none;
