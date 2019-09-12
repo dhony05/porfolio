@@ -1,4 +1,34 @@
+// this function will load the js from the begining
+var dataPlants;
+  $.getJSON('../JS/plantsData.json',data  =>{
+    $(document).ready(function(){
+    let i = 0;
+  while(i<data.plants.length){
 
+  let div = document.createElement('div');
+  div.className = 'footer-item';
+  let divImg = document.createElement('img');
+  //divImg.id = i.toString();
+  divImg.setAttribute("src",data.plants[i].image)
+  divImg.style = "width:100%; opacity:0.9;"
+  let button = document.createElement('button');
+  button.id = i.toString();
+  button.className ="btn";
+  button.setAttribute("onclick","addContent(this.id)")
+  document.getElementById('selectorID').appendChild(div);
+  div.appendChild(divImg);
+  div.appendChild(button);
+  i++;
+  }
+    }); 
+    console.log(data);
+    
+    dataPlants=data;
+    console.log(dataPlants);
+  });
+  console.log(dataPlants);
+  
+  
 
 
  
@@ -20,7 +50,7 @@ function getNewColor(newColor){
 /************************** */
 
 /*
-This function will remove the rows and will set the isShowing Boolean to false;
+This function will remove the rows ;
 */
 
 function removeRow() {
@@ -32,15 +62,14 @@ function removeRow() {
 /*
 This function will check is there is nothing showing and if nothing showing  it display content
 */
-/* create a boolean to identify if the search is found */
+/* Create a boolean to identify if the search is found */
 
  function addContent(id){
   
     document.getElementById('InBigDivision').style.display="block";
    
 /**** This method will call the data from JSON file */
-    $.getJSON('JS/plantsData.json',data  =>{
-      $(document).ready(function(){
+  
      
       //document.getElementById('result').innerHTML = searchAreaInfo;
 
@@ -51,53 +80,36 @@ This function will check is there is nothing showing and if nothing showing  it 
       let i = 0
 
     
-    while(i<data.plants.length){
+    while(i<dataPlants.plants.length){
       if(id == i){
-      console.log(data.plants[i].name + " id number:" + id);
-      info.innerHTML = data.plants[i].information + `<input type="button" value="Hide" name='Hide' onclick="removeRow()" />`;
-      name.innerHTML = data.plants[i].name;
-      type.innerHTML = data.plants[i].type;
-      document.getElementById('imgID').setAttribute("src",data.plants[i].image);
-      content.style.backgroundImage= url("data.plants[i].image");
+      console.log(dataPlants.plants[i].name + " id number:" + id);
+      info.innerHTML = dataPlants.plants[i].information + `<input type="button" value="Hide" name='Hide' onclick="removeRow()" />`;
+      name.innerHTML = dataPlants.plants[i].name;
+      type.innerHTML = dataPlants.plants[i].type;
+      document.getElementById('imgID').setAttribute("src",dataPlants.plants[i].image);
+      //content.style.backgroundImage= url("data.plants[i].image");
+      console.log(dataPlants);
       
       }
       i++;  
     }
     
-    
-      }); 
-  
-    });
+     
+   
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // for google chrome
 
 }
-// let enterSearch = document.getElementById('searchElement');
-//   enterSearch.addEventListener("keyup", function(event) {
-//   //search();
-//    if (event.keyCode === 13) {
-//     event.preventDefault();
-//     document.getElementById("searchButtonId").click();
-    
-//    }
-//  });
-window.onload=function(){
-  var mb = document.getElementById("b");
-  mb.addEventListener("click", handler);
-  mb.addEventListener("click", handler2);
-}
 
-document.querySelector('#searchButton').addEventListener('keypress', function (e) {
-  var key = e.which || e.keyCode;
-  if (key === 13) { // 13 is enter
-    // code for enter
-  }
-});
+/**
+ * This method will iterate through JSON and will compare the string input and the data
+ * if it match it will call addContent method if not it will return not found.
+ */
 function search(){
   
-  $.getJSON('JS/plantsData.json',data  =>{
-    $(document).ready(function(){
-       /***Checking inside the text-area */
+
+       /***
+        * Checking inside the text-area */
       let searchAreaInfo = document.getElementById('searchElement').value;
       let count =0;
       let i = 0;
@@ -105,9 +117,8 @@ function search(){
       let formatedSearch = "";
      
       //create and populate an array of every plants name
-      for (let index = 0; index < data.plants.length; index++) {
-        checkingArray[index] = data.plants[index].name;
-        
+      for (let index = 0; index < dataPlants.plants.length; index++) {
+        checkingArray[index] = dataPlants.plants[index].name;
       }
       //checking if the text area is empty
       console.log(checkingArray);
@@ -115,26 +126,21 @@ function search(){
 
         document.getElementById('result').innerHTML = 'please enter a value';
       }else{
-
-      
       //iterating through the JSON to find the input
-       while(i < data.plants.length){
-        if(searchAreaInfo.toUpperCase() ==  data.plants[i].name.toUpperCase()){
+       while(i < dataPlants.plants.length){
+        if(searchAreaInfo.toUpperCase() ==  dataPlants.plants[i].name.toUpperCase()){
           count ++;
           document.getElementById('result').innerHTML = count+' result of '+searchAreaInfo+ ' found';
           formatedSearch = searchAreaInfo.substring(0,1).toUpperCase() + searchAreaInfo.substring(1).toLowerCase();
           addContent(checkingArray.indexOf(formatedSearch));
           console.log(formatedSearch + ' formatted' + checkingArray.indexOf(formatedSearch)); 
-          console.log(data.plants[i].name +' Found'); 
-          console.log(data.plants[i].name.toUpperCase());break;
-          
-          //isFound = true; 
+          console.log(dataPlants.plants[i].name +' Found'); 
+          console.log(dataPlants.plants[i].name.toUpperCase());break;
+        
   
         }else{
           document.getElementById('result').innerHTML = `Can't find ` + searchAreaInfo;
-          //console.log(document.getElementById('result').innerHTML = `Cannot find ` + searchAreaInfo);
           
-
         }
         //console.log(data.plants[i].name);
         i++;
@@ -143,9 +149,8 @@ function search(){
     }
 
 
-    }); 
-  
-  });
+    
+ 
 }
 
 
