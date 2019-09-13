@@ -104,7 +104,6 @@ function search() {
   
   /***
      * Checking inside the text-area */
-    if(windows.event.keyCode ==13){
     let searchAreaInfo = document.getElementById('searchElement').value;
     let count = 0;
     let i = 0;
@@ -149,7 +148,7 @@ function search() {
             
 
         }
-    }
+    
     }
 
 
