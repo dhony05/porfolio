@@ -132,10 +132,7 @@ function search() {
                 console.log(dataPlants.plants[i].name.toUpperCase()); break;
 
 
-            }else if(dataPlants.plants[i].name.startsWith(searchAreaInfo.substring(0,1))){
-                console.log("did you mean "+dataPlants.plants[i].name);
             }
-            
             else {
                 document.getElementById('result').innerHTML = `Can't find ` + searchAreaInfo;
                 }
