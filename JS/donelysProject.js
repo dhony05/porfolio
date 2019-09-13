@@ -1,4 +1,10 @@
 
+  $(function() {
+    $("form").submit(function() { return false; });
+ });
+
+
+
 var dataPlants; //Create a method to handle all the JSON data
 
 /**  
@@ -25,12 +31,11 @@ $.getJSON('../JS/plantsData.json', data => {
             i++;
         }
     });
-    console.log(data);
 
-    dataPlants = data;
-    console.log(dataPlants);
+    dataPlants = data; // assigning data to dataPlant variable
+
 });
-console.log(dataPlants);
+
 
 /*
 This function will remove the rows ;
@@ -38,8 +43,9 @@ This function will remove the rows ;
 
 function removeRow() {
     document.getElementById('InBigDivision').style.display = "none";
+    
 
-    console.log(document.getElementById('InBigDivision').childNodes.length);
+    //console.log(document.getElementById('InBigDivision').childNodes.length);
 }
 
 /*
@@ -49,6 +55,7 @@ This function will check is there is nothing showing and if nothing showing  it 
 
 function addContent(id) {
 
+    //document.getElementById("result").style.display = "none";
     document.getElementById('InBigDivision').style.display = "block";
 
     let content = document.getElementById('content');
@@ -60,12 +67,13 @@ function addContent(id) {
     while (i < dataPlants.plants.length) {
         if (id == i) {
             console.log(dataPlants.plants[i].name + " id number:" + id);
-            info.innerHTML = dataPlants.plants[i].information + `<input type="button" value="Hide" name='Hide' onclick="removeRow()" />`;
+            info.innerHTML = dataPlants.plants[i].information + `<input id="hideButtonId" type="button" value="Hide" name='Hide' onclick="removeRow()" />`;
             name.innerHTML = dataPlants.plants[i].name;
             type.innerHTML = dataPlants.plants[i].type;
             document.getElementById('imgID').setAttribute("src", dataPlants.plants[i].image);
+            
             //content.style.backgroundImage= url("data.plants[i].image");
-            console.log(dataPlants);
+            //console.log(dataPlants);
 
         }
         i++;
@@ -78,15 +86,25 @@ function addContent(id) {
 
 }
 
+// var input = document.getElementById("searchElement");
+// input.addEventListener("keyup", function(event) {
+//     console.log('d');
+//     event.preventDefault();
+//   if (event.keyCode === 13) {
+//      document.getElementById('searchButtonId').click();
+
+//   }
+// });
+
 /**
  * This method will iterate through JSON and will compare the string input and the data
  * if it match it will call addContent method if not it will return not found.
  */
 function search() {
-
-
-    /***
+  
+  /***
      * Checking inside the text-area */
+    if(windows.event.keyCode ==13){
     let searchAreaInfo = document.getElementById('searchElement').value;
     let count = 0;
     let i = 0;
@@ -98,7 +116,7 @@ function search() {
         checkingArray[index] = dataPlants.plants[index].name;
     }
     //checking if the text area is empty
-    console.log(checkingArray);
+    //console.log(checkingArray);
     if (searchAreaInfo == "") {
 
         document.getElementById('result').innerHTML = 'please enter a value';
@@ -110,24 +128,43 @@ function search() {
                 document.getElementById('result').innerHTML = count + ' result of ' + searchAreaInfo + ' found';
                 formatedSearch = searchAreaInfo.substring(0, 1).toUpperCase() + searchAreaInfo.substring(1).toLowerCase();
                 addContent(checkingArray.indexOf(formatedSearch));
-                console.log(formatedSearch + ' formatted' + checkingArray.indexOf(formatedSearch));
-                console.log(dataPlants.plants[i].name + ' Found');
+                //console.log(formatedSearch + ' formatted' + checkingArray.indexOf(formatedSearch));
+               // console.log(dataPlants.plants[i].name + ' Found');
                 console.log(dataPlants.plants[i].name.toUpperCase()); break;
 
 
-            } else {
-                document.getElementById('result').innerHTML = `Can't find ` + searchAreaInfo;
-
+            }else if(dataPlants.plants[i].name.startsWith(searchAreaInfo.substring(0,1))){
+                console.log("did you mean "+dataPlants.plants[i].name);
             }
-            i++;
+            
+            else {
+                document.getElementById('result').innerHTML = `Can't find ` + searchAreaInfo;
+                }
+                
+                //console.log("does it runs A?");
+                
+                //console.log("does it runs B?");
+                i++;
+            }
+            
 
         }
+    }
     }
 
 
 
 
-}
+// function doYouMean(input){
+//     let i = 0;
+//     //while (i < dataPlants.plants.length) {
+//         if(input.startsWith(dataPlants.plants[i].name.substring(0,1))){
+//             console.log("did you mean "+dataPlants.plants[i].name);
+//             console.log(input);
+//         }
+//         i++;
+//     }
+// }
 
 
 
