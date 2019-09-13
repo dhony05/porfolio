@@ -130,7 +130,8 @@
   }
   
   .menu {
-    padding: 20px;
+    padding: 5px;
+    margin: 6px;
   
   
   }
@@ -181,6 +182,27 @@
   }
   .footer-item:hover{
     opacity: .6;
+  }
+  
+  #hideButtonId{
+    padding: 10px;
+    width: 9vw;
+    height: 5vh;
+    display: inline-block;
+    background-color: rgb(227, 255, 234);
+    border-radius: 9px;
+    font-size: 15px;
+    outline: none;
+
+  }
+  #searchButtonId{
+    background-color: rgb(227, 255, 234);
+    width: 5vw;
+    border-radius: 9px;
+  }
+  #result{
+    flex: center; 
+    padding: 12px 24px;
   }
   
   
