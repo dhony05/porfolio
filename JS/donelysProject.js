@@ -16,6 +16,7 @@ $.getJSON('../JS/plantsData.json', data => {
 
             let div = document.createElement('div');  // creating div footer-item
             div.className = 'footer-item';
+           
 
             let divImg = document.createElement('img');
             divImg.setAttribute("src", data.plants[i].image)  //creating img tag and set its atribute from JSON
@@ -25,7 +26,7 @@ $.getJSON('../JS/plantsData.json', data => {
             button.id = i.toString();
             button.className = "btn";
             button.setAttribute("onclick", "addContent(this.id)") // creating a button to call the method addContent
-            document.getElementById('selectorID').appendChild(div);
+            document.getElementById('selectorID').appendChild(div);// here we are appending to  selectorID to display it
             div.appendChild(divImg);
             div.appendChild(button);
             i++;
