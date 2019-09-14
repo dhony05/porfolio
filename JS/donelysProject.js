@@ -12,21 +12,25 @@ var dataPlants; //Create a method to handle all the JSON data
 $.getJSON('../JS/plantsData.json', data => {
     $(document).ready(function () {
         let i = 0;
+
         while (i < data.plants.length) {
 
             let div = document.createElement('div');  // creating div footer-item
-            div.className = 'footer-item';
+            div.className = 'col-4 col py-3 px-lg-5 border bg-light';
+           
+            
            
 
             let divImg = document.createElement('img');
             divImg.setAttribute("src", data.plants[i].image)  //creating img tag and set its atribute from JSON
             divImg.style = "width:100%; opacity:0.9;"
-
+            divImg.className = "img-fluid";
+            
             let button = document.createElement('button');
             button.id = i.toString();
             button.className = "btn";
             button.setAttribute("onclick", "addContent(this.id)") // creating a button to call the method addContent
-            document.getElementById('selectorID').appendChild(div);// here we are appending to  selectorID to display it
+            document.getElementById('rowId').appendChild(div);// here we are appending to  selectorID to display it
             div.appendChild(divImg);
             div.appendChild(button);
             i++;
