@@ -16,7 +16,7 @@ $.getJSON('../JS/plantsData.json', data => {
         while (i < data.plants.length) {
 
             let div = document.createElement('div');  // creating div footer-item
-            div.className = 'col-4 col py-3 px-lg-5 border bg-light';
+            div.className = ' col-4 col py-3 px-lg-5 border bg-light';
            
             
            
