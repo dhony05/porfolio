@@ -12,7 +12,7 @@ body, html
 .onlyImg
 {
 	background-image: url('../imgs/img/canion.JPG') ;
-	min-height: 100%;
+	min-height: 50%;
 	position:relative;
 	opacity: 0.90;
 	background-position: center;
