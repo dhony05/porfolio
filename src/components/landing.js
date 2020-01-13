@@ -21,15 +21,15 @@ class Landing extends Component {
 
                         <hr/>
 
-                        <p>Java | JavaScript |Python | SpringBoot | HTML/CSS | Bootstrap | Angular 8 | React | MySQL | MongoDB</p>
+                        <p>Java | JavaScript | Python | SpringBoot | HTML/CSS | Bootstrap | Angular 8 | React | MySQL | MongoDB</p>
                         <div className="social-links">
                             {/** LinkedIn */}
-                            <a href="http://google.com" ref="noopener noreferrer" target="_black">
+                            <a href="https://www.linkedin.com/in/donelysfa/" ref="noopener noreferrer" target="_black">
                             <i className="fa fa-linkedin-square" aria-hidden="true"/>
                             </a>
 
                               {/** Github */}
-                              <a href="http://google.com" ref="noopener noreferrer" target="_black">
+                              <a href="https://github.com/dhony05" ref="noopener noreferrer" target="_black">
                             <i className="fa fa-github-square" aria-hidden="true"/>
                             </a>
 
@@ -49,7 +49,7 @@ class Landing extends Component {
                             </a>  
 
                              {/** Youtube */}
-                             <a href="http://google.com" ref="noopener noreferrer" target="_black">
+                             <a href="https://www.youtube.com/channel/UCYsrJPbVtQRvCfeBWY1IrvQ" ref="noopener noreferrer" target="_black">
                             <i className="fa fa-youtube-square" aria-hidden="true"/>
                             </a>
 
