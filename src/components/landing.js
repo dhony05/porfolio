@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import codewarsIcon from '@iconify/icons-simple-icons/codewars';
 import {Grid,Cell} from 'react-mdl';
 

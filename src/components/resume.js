@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import {Grid,Cell}from 'react-mdl';
 
 class Resume extends Component {
     state = {  }
     render() { 
         return (  
-            <div>
-                <h1>
-                    Resume page
-                </h1>
+            <div className="resume-body">
+                <Grid>
+                    <Cell col={12}>
+                        
+                    </Cell>
+                </Grid>
             </div>
         );
     }
