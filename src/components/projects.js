@@ -10,6 +10,10 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0){
             return(
+                
+                <div className="projects-grid">
+                
+                {/*  project #1 */}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'afff',height: '176px',background: 'url(https://www.ophtek.com/wp-content/uploads/2014/08/java_tech.jpg) center / cover'}}> Java Project
                         </CardTitle>
@@ -18,12 +22,63 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                 </Card>
+
+                {/*  project #2 */}
+                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://www.ophtek.com/wp-content/uploads/2014/08/java_tech.jpg) center / cover'}}> Java Project
+                        </CardTitle>
+                        <CardText>
+                            lorem adfsasdasdasdasdasdasd
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style = {{color: 'afff'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                </Card>
+                {/*  project #3 */}
+                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://www.ophtek.com/wp-content/uploads/2014/08/java_tech.jpg) center / cover'}}> Java Project
+                        </CardTitle>
+                        <CardText>
+                            lorem adfsasdasdasdasdasdasd
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style = {{color: 'afff'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                </Card>
+
+                {/*  project #3 */}
+                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://www.ophtek.com/wp-content/uploads/2014/08/java_tech.jpg) center / cover'}}> Java Project
+                        </CardTitle>
+                        <CardText>
+                            lorem adfsasdasdasdasdasdasd
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style = {{color: 'afff'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                </Card>
+                
+                
+                
+                </div>
             )
         } else if(this.state.activeTab === 1){
             return(
@@ -76,14 +131,16 @@ class Projects extends Component {
                 
 
                 </Tabs>
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
-                        <Cell col="12"></Cell>
+               
+                    <Grid >
+                        <Cell col="12">
 
                         <div className="content">{this.toggleCategories()}</div>
+                        </Cell>
+                        
                     </Grid>
                     
-                </section>
+                
                 
             </div>
           );

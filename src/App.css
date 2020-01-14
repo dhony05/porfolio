@@ -18,6 +18,11 @@
 
 }
 
+.projects-grid{
+  display:flex;
+  
+}
+
 .avatar-img{
   height: 400px;
   padding-top: 5em;
