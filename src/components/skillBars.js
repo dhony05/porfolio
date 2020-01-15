@@ -9,7 +9,7 @@ class SkillBars extends Component {
            
             <Grid >
                 <Cell col={12}>
-                   <div  style={{display: 'flex', marginLeft:'10rem' , }}> {this.props.skill } 
+                   <div  style={{display: 'flex', marginLeft:'1rem' , }}> {this.props.skill } 
                    <ProgressBar style={{marginLeft:'auto',width: '75%'}}
                    progress={this.props.progress} buffer={85} />
                    
