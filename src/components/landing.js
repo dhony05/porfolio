@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Icon} from '@iconify/react';
-import codewarsIcon from '@iconify/icons-simple-icons/codewars';
+// import codewarsIcon from '@iconify/icons-simple-icons/codewars';
 import {Grid,Cell} from 'react-mdl';
 
 class Landing extends Component {
@@ -39,7 +39,7 @@ class Landing extends Component {
                             </a>
                             {/** codewars */}
                             <a href="https://www.codewars.com/users/dhony05" ref="noopener noreferrer" target="_black">
-                            <Icon icon={codewarsIcon} className="codewars" />
+                            {/* <Icon icon={codewarsIcon} className="codewars" /> */}
                             </a>
 
                             {/** Wordpress*/}
