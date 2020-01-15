@@ -8,7 +8,7 @@ class AboutMe extends Component {
             <Grid className="aboutme-body">
                 <Cell col={12} style={{background:'rbga(0,0,0,04)'}}>
                 <div className="box">
-                <img src="https://dhony05.github.io/imgs/img/profile.jpg" className="box-img"/>
+                <img src="https://dhony05.github.io/imgs/img/profile.jpg" alt="profile" className="box-img"/>
                 <h1>About Me</h1>
                 <p>Hey! Welcome, my name is Donelys Familia.</p>
                 <p>I graduated with a bachelor degree in computer science at CUNY Lehman College in 2018.

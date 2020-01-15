@@ -1,7 +1,7 @@
 import React from 'react';
 import Landing from './landing';
 import AboutMe from "./aboutme";
-import Resume from "./resume";
+
 import Contact from "./contact";
 import Projects from "./projects";
 import Skills from "./skills";
