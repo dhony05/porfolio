@@ -21,13 +21,17 @@ class Projects extends Component {
                         <CardText>
                         This is a project similar to paint which you can use some of the functions to make your drawings .
                         </CardText>
+                        <CardText>
+                        Japplet 
+                        </CardText>
                         <CardActions border>
                             
                             <a href="https://github.com/dhony05/The-paint-project" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
 
                 {/*  project #2 */}
@@ -37,13 +41,16 @@ class Projects extends Component {
                         <CardText>
                             This project is a game developed using Japplet library. In this game users are able to earn point by firing/houses.
                         </CardText>
+                        <CardText>
+                        Japplet 
+                        </CardText>
                         <CardActions border>
                         <a href="https://github.com/dhony05/Game" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                             
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
                 
 
@@ -57,14 +64,17 @@ class Projects extends Component {
                             This was my first project, back in 2015. A game based on one of the famous 90's games " Asteroid"
                         </CardText>
                       
+                        <CardText>
+                        Japplet 
+                        </CardText>
                         <CardActions border>
                         <a href="https://github.com/dhony05/Asteroid-game" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                          
                          
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
                 
                 </div>
@@ -91,9 +101,9 @@ class Projects extends Component {
                          
                          
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
 
                             </div>
@@ -122,9 +132,9 @@ class Projects extends Component {
                          
                          
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/ArrayFreeLibrary-Angular/blob/master/Screen%20Shot%202020-01-14%20at%205.00.33%20PM.png?raw=true) center / cover'}}> ChefUP
@@ -141,9 +151,9 @@ class Projects extends Component {
                          
                          
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
 
                             </div>
@@ -167,9 +177,9 @@ class Projects extends Component {
                         <a href="https://github.com/dhony05/4giving" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                             
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
                 </div>
                 </div>
@@ -192,9 +202,9 @@ class Projects extends Component {
                         <a href="https://github.com/dhony05/Slot-machine" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                             
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
@@ -210,9 +220,9 @@ class Projects extends Component {
                         <a href="https://github.com/dhony05/dhony05.github.io" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                         <a href="https://dhony05.github.io/HTML/projectDonelys.html" ref="noopener noreferrer" target="_black"><Button colored >Live Demo</Button></a>   
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
 
                 
@@ -223,15 +233,15 @@ class Projects extends Component {
                             This project allows the users to use the four basic aritmethic properties.
                         </CardText>
                         <CardText>
-                            Java
+                            Java 
                         </CardText>
                         <CardActions border>
                         <a href="https://github.com/dhony05/Mini-Calculator" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
                             
                         </CardActions>
-                        <CardMenu style = {{color: 'afff'}}>
+                        {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
-                        </CardMenu>
+                        </CardMenu> */}
                 </Card>
                 
                 
