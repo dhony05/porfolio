@@ -70,8 +70,10 @@ margin: auto;
 
 .codewars{
   color:white;
-  font-size:  5em;
+  height: 7.5vmin;
   padding: 8px;
+  border-radius: 50%;
+  background: white;
 }
 /* Contact page css */
 .contact-body{

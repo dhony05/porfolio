@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import codewars from './codewars.svg'
+// import logo from '../logo.svg'
 // import { Icon} from '@iconify/react';
 // import codewarsIcon from '@iconify/icons-simple-icons/codewars';
 import {Grid,Cell} from 'react-mdl';
@@ -16,6 +18,7 @@ class Landing extends Component {
                       className="avatar-img"
 
                       />
+                      
                       <div className="banner-text">
                           <h1>Software Developer</h1>
 
@@ -40,12 +43,14 @@ class Landing extends Component {
                             {/** codewars */}
                             <a href="https://www.codewars.com/users/dhony05" ref="noopener noreferrer" target="_black">
                             {/* <Icon icon={codewarsIcon} className="codewars" /> */}
+                            <img src={codewars} className="codewars" alt="code" />
+ 
                             </a>
 
                             {/** Wordpress*/}
                             <a href="http://dhonylearning.home.blog/" ref="noopener noreferrer" target="_black">
                             <i class="fab fa-wordpress-simple"></i>
- 
+                            
                             </a>  
 
                              {/** Youtube */}

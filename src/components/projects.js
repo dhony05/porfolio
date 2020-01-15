@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Tabs, Tab,Grid, Cell,Card,CardTitle, CardActions,CardMenu,IconButton,CardText,Button} from 'react-mdl';
+import {Tabs, Tab,Grid, Cell,Card,CardTitle, CardActions,CardText,Button} from 'react-mdl';
 class Projects extends Component {
     constructor(props){
         super(props);
@@ -36,7 +36,7 @@ class Projects extends Component {
 
                 {/*  project #2 */}
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'white',height: '176px',background: 'url(https://mail.google.com/mail/u/0?ui=2&ik=6bcc70454e&attid=0.2&permmsgid=msg-a:r8500829331803176273&th=16fa5a654fb79c5a&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8-idJloor9Kur8DkVlWG9nf7qFEYTEDluNXl7tDS1j0B0pgBt3CLNq_bEisZQmH7YJbeRCcJGBD-rmpYGxfsANsCtF00JvGaJiO54CgcKIEibukIq6jcPEeVs&disp=emb&realattid=ii_k5eaykjm1) center / cover'}}> Dragon firing
+                    <CardTitle style={{color:'white',height: '176px',background: 'url(https://github.com/dhony05/Game/blob/master/dragonfiring.png?raw=true) center / cover'}}> Dragon firing
                         </CardTitle>
                         <CardText>
                             This project is a game developed using Japplet library. In this game users are able to earn point by firing/houses.
