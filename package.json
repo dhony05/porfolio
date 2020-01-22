@@ -2,7 +2,7 @@
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://donelys.github.io/porfolio",
+  "homepage" : "http://dhony05.github.io/porfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-regular-svg-icons": "^5.12.0",
