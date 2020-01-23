@@ -137,7 +137,7 @@ class Projects extends Component {
                         </CardMenu> */}
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/ArrayFreeLibrary-Angular/blob/master/Screen%20Shot%202020-01-14%20at%205.00.33%20PM.png?raw=true) center / cover'}}> ChefUP
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/ArrayFreeLibrary-Angular/blob/master/Screen%20Shot%202020-01-14%20at%205.00.33%20PM.png?raw=true) center / cover'}}> Link Library
                         </CardTitle>
                         <CardText>
                         This application keep track of awesome links from around the internet.
