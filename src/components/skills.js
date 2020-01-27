@@ -23,39 +23,39 @@ class Skills extends Component {
                     progress="67"
                     />
                     <SkillBars
-                    skill="Spring MVC"
+                    skill="Spring Boot"
                     progress="65"
                     />
                     <SkillBars
                     skill="MySql"
-                    progress="65"
+                    progress="56"
                     />
 
                     <SkillBars
                     skill="HTML/CSS"
-                    progress="60"
-                    />
-                    <SkillBars
-                    skill="React"
-                    progress="50"
-                    />
-                    <SkillBars
-                    skill="Angular"
-                    progress="50"
-                    />
-                    
-                    <SkillBars
-                    skill="MongoDB"
-                    progress="50"
+                    progress="55"
                     />
                     <SkillBars
                     skill="Bootstrap"
                     progress="50"
                     />
+                    <SkillBars
+                    skill="Angular"
+                    progress="40"
+                    />
+                    <SkillBars
+                    skill="MongoDB"
+                    progress="38"
+                    />
+
+                    <SkillBars
+                    skill="React"
+                    progress="30"
+                    />
                     
                     <SkillBars
                     skill="Python"
-                    progress="45"
+                    progress="29"
                     />
                     
 

@@ -8,7 +8,7 @@ class Projects extends Component {
         };
     }
     toggleCategories() {
-        if(this.state.activeTab === 0){
+        if(this.state.activeTab === 1){
             return(
                 <div>
                 
@@ -78,43 +78,67 @@ class Projects extends Component {
                 </Card>
                 
                 </div>
-                
-
-                
-                </div>
-                
-                
-            )
-        } else if(this.state.activeTab === 1){
-            return(
-                <div>
-
-                    <div className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/Home-Recipes-ReactAPP/blob/master/Screen%20Shot%202020-01-14%20at%204.37.33%20PM.png?raw=true) center / cover'}}> Home recipe app
+                <div className="projects-grid" style={{paddingTop:'3em'}}>
+                <Card shadow={5} style={{minWidth: '450', margin:'auto', }}>
+                    <CardTitle style={{color:'',height: '176px',background: 'url(https://cloud.githubusercontent.com/assets/23525836/23682434/cc61b574-0361-11e7-969b-4436dbcc72b4.png) center / cover'}}> Mini Calculator
                         </CardTitle>
                         <CardText>
-                        This project was created following Dev ed's videos on youtube. This application is build in React and consume edamam.com free API                        </CardText>
-                      
+                            This project allows the users to use the four basic aritmethic properties.
+                        </CardText>
+                        <CardText>
+                            Java 
+                        </CardText>
                         <CardActions border>
-                        <a href="https://github.com/dhony05/Home-Recipes-ReactAPP" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
-                         
-                         
+                        <a href="https://github.com/dhony05/Mini-Calculator" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
+                            
                         </CardActions>
                         {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
                         </CardMenu> */}
                 </Card>
 
-                            </div>
-                    
                 </div>
+
+                
+                </div>
+                
+                
             )
-        }
-        else if(this.state.activeTab === 2){
+        } 
+        // else if(this.state.activeTab === 1){
+        //     return(
+        //         <div>
+
+        //             <div className="projects-grid">
+                    
+
+        //                     </div>
+                    
+        //         </div>
+        //     )
+        // }
+        else if(this.state.activeTab === 0){
             return(
                 <div>
                     <div className="projects-grid">
+
+                    <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/dhony05.github.io/blob/master/Screen%20Shot%202020-01-14%20at%203.50.19%20PM.png?raw=true) center / cover'}}> Medicinal herbs
+                        </CardTitle>
+                        <CardText>
+                            This project provides the user a search of medicial herbs.
+                        </CardText>
+                        <CardText>
+                            HTML | CSS | JavaScript | MySQL
+                        </CardText>
+                        <CardActions border>
+                        <a href="https://github.com/dhony05/dhony05.github.io" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
+                        <a href="https://dhony05.github.io/HTML/projectDonelys.html" ref="noopener noreferrer" target="_black"><Button colored >Live Demo</Button></a>   
+                        </CardActions>
+                        {/* <CardMenu style = {{color: 'afff'}}>
+                            <IconButton name="share"/>
+                        </CardMenu> */}
+                </Card>
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/chefProject/blob/master/Screen%20Shot%202020-01-14%20at%205.08.17%20PM.png?raw=true) center / cover'}}> ChefUP
                         </CardTitle>
@@ -124,7 +148,7 @@ class Projects extends Component {
                                  
                         </CardText>
                         <CardText>
-                        Java | SpringBoot | TypeScript | MySQL 
+                        Java | SpringBoot | MySQL | Angular 7
                         </CardText>
                       
                         <CardActions border>
@@ -143,7 +167,7 @@ class Projects extends Component {
                         This application keep track of awesome links from around the internet.
                         </CardText>
                         <CardText>
-                        Java | SpringBoot | TypeScript | MySQL 
+                        Java | SpringBoot | MySQL | Angular 7 
                         </CardText>
                       
                         <CardActions border>
@@ -156,14 +180,10 @@ class Projects extends Component {
                         </CardMenu> */}
                 </Card>
 
+                
+
                             </div>
-                </div>
-            )
-        }
-        else if(this.state.activeTab === 3){
-            return(
-                <div>
-                    <div className="projects-grid">
+                            <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/4giving/blob/master/Screen%20Shot%202020-01-14%20at%2010.03.30%20PM.png?raw=true) center / cover'}}> 4giving
                         </CardTitle>
@@ -181,11 +201,55 @@ class Projects extends Component {
                             <IconButton name="share"/>
                         </CardMenu> */}
                 </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/Home-Recipes-ReactAPP/blob/master/Screen%20Shot%202020-01-14%20at%204.37.33%20PM.png?raw=true) center / cover'}}> Home recipe app
+                        </CardTitle>
+                        <CardText>
+                        This project was created following Dev ed's videos on youtube. This application is build in React and consume edamam.com free API                        </CardText>
+                        <CardText>
+                         React 
+                        </CardText>
+                        <CardActions border>
+
+                        <a href="https://github.com/dhony05/Home-Recipes-ReactAPP" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
+                         
+                         
+                        </CardActions>
+                        {/* <CardMenu style = {{color: 'afff'}}>
+                            <IconButton name="share"/>
+                        </CardMenu> */}
+                </Card>
                 </div>
                 </div>
             )
         }
-        else if(this.state.activeTab === 4){
+        // else if(this.state.activeTab === 3){
+        //     return(
+        //         <div>
+        //             <div className="projects-grid">
+        //             <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+        //             <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/4giving/blob/master/Screen%20Shot%202020-01-14%20at%2010.03.30%20PM.png?raw=true) center / cover'}}> 4giving
+        //                 </CardTitle>
+        //                 <CardText>
+        //                 4giving is an application that allows you to search item donators around or be an item donator. It provides you a excelent RESTful API along with MongoDB functionality.
+        //                 </CardText>
+        //                 <CardText>
+        //                 SpringBoot | React | MongoDB
+        //                 </CardText>
+        //                 <CardActions border>
+        //                 <a href="https://github.com/dhony05/4giving" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
+                            
+        //                 </CardActions>
+        //                 {/* <CardMenu style = {{color: 'afff'}}>
+        //                     <IconButton name="share"/>
+        //                 </CardMenu> */}
+        //         </Card>
+        //         </div>
+        //         </div>
+        //     )
+        // }
+        else if(this.state.activeTab === 2){
             return(
                 <div>
                     <div className="projects-grid">
@@ -207,42 +271,10 @@ class Projects extends Component {
                         </CardMenu> */}
                 </Card>
 
-                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/dhony05.github.io/blob/master/Screen%20Shot%202020-01-14%20at%203.50.19%20PM.png?raw=true) center / cover'}}> Medicinal herbs
-                        </CardTitle>
-                        <CardText>
-                            This project provides the user a search of medicial herbs.
-                        </CardText>
-                        <CardText>
-                            HTML | CSS | JavaScript | MySQL
-                        </CardText>
-                        <CardActions border>
-                        <a href="https://github.com/dhony05/dhony05.github.io" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
-                        <a href="https://dhony05.github.io/HTML/projectDonelys.html" ref="noopener noreferrer" target="_black"><Button colored >Live Demo</Button></a>   
-                        </CardActions>
-                        {/* <CardMenu style = {{color: 'afff'}}>
-                            <IconButton name="share"/>
-                        </CardMenu> */}
-                </Card>
+                
 
                 
-                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'',height: '176px',background: 'url(https://cloud.githubusercontent.com/assets/23525836/23682434/cc61b574-0361-11e7-969b-4436dbcc72b4.png) center / cover'}}> Mini Calculator
-                        </CardTitle>
-                        <CardText>
-                            This project allows the users to use the four basic aritmethic properties.
-                        </CardText>
-                        <CardText>
-                            Java 
-                        </CardText>
-                        <CardActions border>
-                        <a href="https://github.com/dhony05/Mini-Calculator" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
-                            
-                        </CardActions>
-                        {/* <CardMenu style = {{color: 'afff'}}>
-                            <IconButton name="share"/>
-                        </CardMenu> */}
-                </Card>
+                
                 
                 
                 </div>
@@ -256,10 +288,9 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
                 
+                <Tab>JUMP/Collabera</Tab>
                 <Tab>Java</Tab>
-                <Tab>React</Tab>
-                <Tab>Angular</Tab>
-                <Tab>MongoDB</Tab>
+              
                 <Tab>Others</Tab>
                 
 
