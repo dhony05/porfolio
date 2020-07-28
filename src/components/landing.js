@@ -24,7 +24,7 @@ class Landing extends Component {
 
                         <hr/>
 
-                        <p>Java | JavaScript | Python | SpringBoot | HTML/CSS | Bootstrap  | MySQL | MongoDB | Angular 7 | React</p>
+                        <p>Java | JavaScript | Python | SpringBoot | HTML/CSS | Bootstrap  | MySQL | MongoDB | Angular 7 | React | GraphQL</p>
                         <div className="social-links">
                             {/** LinkedIn */}
                             <a href="https://www.linkedin.com/in/donelysfa/" ref="noopener noreferrer" target="_black">

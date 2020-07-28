@@ -57,6 +57,16 @@ class Skills extends Component {
                     skill="Python"
                     progress="29"
                     />
+                     <SkillBars
+                    skill="GraphQL"
+                    progress="15"
+                    />
+                    <SkillBars
+                    skill="AWS"
+                    progress="10"
+                    />
+                   
+
                     
 
                     </Cell>

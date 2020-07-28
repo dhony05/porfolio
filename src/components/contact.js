@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Donelys Familia</h2>
             <img
-              src="https://scontent-lga3-1.xx.fbcdn.net/v/l/t1.0-9/31084285_10211595028376628_617496875599134720_o.jpg?_nc_cat=106&_nc_ohc=r4EX_V6sTuMAX_Qkg0E&_nc_ht=scontent-lga3-1.xx&oh=418cb3693ea8094ba3d6bfe06262ab1b&oe=5EA08259"
+              src="https://scontent-lga3-2.xx.fbcdn.net/v/l/t1.0-9/31084285_10211595028376628_617496875599134720_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=THGZcKg2qOYAX9KT5rk&_nc_ht=scontent-lga3-2.xx&oh=29927a924cd4d1e9276cffa5627cf5b4&oe=5F474FA7"
               alt="avatar"
               style={{ height: "250px" }}
             />
