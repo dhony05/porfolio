@@ -108,7 +108,8 @@ margin: auto;
   background:  #BBD2C5;;
   
   margin-bottom: 20px;
-  overflow-y: scroll;
+  overflow-y: scroll hidden;
+  overflow-x: scroll hidden;
 
 
 }
@@ -153,6 +154,10 @@ margin: auto;
   height: 100;
   width: auto;
   margin:auto;
+  
+  overflow-y: scroll hidden;
+  overflow-x: scroll hidden;
+  
   
 }
  
