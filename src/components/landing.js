@@ -13,7 +13,7 @@ class Landing extends Component {
               <Grid className="landing-grid">
                   <Cell col={12}>
                       <img 
-                      src="https://dhony05.github.io/imgs/img/profile.jpg"
+                      src="https://dhony05.github.io/first-page/imgs/img/profile.jpg"
                       alt="avatar"
                       className="avatar-img"
 

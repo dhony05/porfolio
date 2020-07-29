@@ -123,7 +123,7 @@ class Projects extends Component {
                     <div className="projects-grid">
 
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/dhony05.github.io/blob/master/Screen%20Shot%202020-01-14%20at%203.50.19%20PM.png?raw=true) center / cover'}}> Medicinal herbs
+                    <CardTitle style={{color:'afff',height: '176px',background: 'url(https://github.com/dhony05/first-page/blob/master/Screen%20Shot%202020-01-14%20at%203.50.19%20PM.png?raw=true) center / cover'}}> Medicinal herbs
                         </CardTitle>
                         <CardText>
                             This project provides the user a search of medicial herbs.
@@ -132,8 +132,8 @@ class Projects extends Component {
                             HTML | CSS | JavaScript | MySQL
                         </CardText>
                         <CardActions border>
-                        <a href="https://github.com/dhony05/dhony05.github.io" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
-                        <a href="https://dhony05.github.io/HTML/projectDonelys.html" ref="noopener noreferrer" target="_black"><Button colored >Live Demo</Button></a>   
+                        <a href="https://github.com/dhony05/first-page" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
+                        <a href="https://dhony05.github.io/first-page/HTML/projectDonelys.html" ref="noopener noreferrer" target="_black"><Button colored >Live Demo</Button></a>   
                         </CardActions>
                         {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
