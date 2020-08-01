@@ -221,6 +221,9 @@ margin: auto;
   .box p{font-weight: bold;}
   .skills-grid{position:absolute; font-size: 15px;}
   .skills-grid h1{font-size:30px;}
+  .projects-grid{padding-top: 1em; display:grid}
+  .single-container{padding-top: 1em; display:grid}
+  
   
 
 }

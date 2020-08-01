@@ -35,7 +35,7 @@ class Projects extends Component {
                 </Card>
 
                 {/*  project #2 */}
-                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                <Card  classname="content-wrap"shadow={5} style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color:'white',height: '176px',background: 'url(https://github.com/dhony05/Game/blob/master/dragonfiring.png?raw=true) center / cover'}}> Dragon firing
                         </CardTitle>
                         <CardText>
@@ -195,7 +195,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                         <a href="https://github.com/dhony05/4giving" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
-                            
+                        <p>In Proj</p>
                         </CardActions>
                         {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
@@ -213,6 +213,7 @@ class Projects extends Component {
                         <CardActions border>
 
                         <a href="https://github.com/dhony05/Home-Recipes-ReactAPP" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
+                        
                          
                          
                         </CardActions>
