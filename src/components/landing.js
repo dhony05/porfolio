@@ -21,6 +21,7 @@ class Landing extends Component {
                       
                       <div className="banner-text">
                           <h1>Software Developer</h1>
+                          <h2>Donelys Familia</h2>
 
                         <hr/>
 

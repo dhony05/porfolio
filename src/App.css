@@ -47,9 +47,14 @@
 
 
 
-.banner-text h1{
+.banner-text h1 {
   font-size: 65px;
   font-weight: bold;
+  color:#BBD2C5;
+}
+
+.banner-text h2{
+  font-size: 40px;
   color:#BBD2C5;
 }
 .banner-text hr{
@@ -86,14 +91,7 @@ margin: auto;
   border-radius: 50%;
   background: white;
 }
-/* @media(max-width:700px){
-  .avatar-img{height: 150px;}
-  .banner-text h1{ font-size:170%;}
-  .social-links i {font-size:3em}
-  .banner-text p{ font-size: 15px;}
-  .banner-text hr{border-top: 5px thick #BBD2C5;}
-} */
-/* Contact page css */
+
 .contact-body{
   margin:auto;
   background: #BBD2C5; 
@@ -103,7 +101,7 @@ margin: auto;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
+  padding-top: 5em;
  
 
 }
@@ -112,12 +110,9 @@ margin: auto;
   justify-content: center;
   width: 80%;
   height: 550px;
-  
   background:  #BBD2C5;;
-  
   margin-bottom: 20px;
-  overflow-y: scroll hidden;
-  overflow-x: scroll hidden;
+  
 
 
 }
@@ -134,7 +129,6 @@ margin: auto;
 .contact-list i{
   font-size: 60 px;
   padding-right:  4rem;
-  
   margin-bottom: 20px;
 }
 /* Skills page css */
@@ -158,12 +152,9 @@ margin: auto;
 
 /* About Me */
 .aboutme-body{
-  background: url(https://github.com/dhony05/first-page/blob/master/imgs/img/canion.JPG?raw=true) no-repeat;
-  background-size: cover;
-  height: 100;
-  width: auto;
-  margin:auto;
-  
+  background: url(https://github.com/dhony05/first-page/blob/master/imgs/img/canion.JPG?raw=true) no-repeat  fixed center;;
+  background-size: cover ;
+  background-attachment: fixed;
   overflow-y: scroll hidden;
   overflow-x: scroll hidden;
 
@@ -171,10 +162,13 @@ margin: auto;
   
   
 }
+.box-container1{
+  height: 1500px;
+}
  
 .box{
   width: 450px;
-  background: rbga(0,0,0,04);
+  background-attachment: fixed;
   padding:40 px;
   text-align: center;
   margin: auto;
@@ -211,18 +205,22 @@ margin: auto;
 
 @media(max-width:700px){
   .avatar-img{height: 240px;}
-  .banner-text h1{ font-size:200%;}
+  .banner-text h1{ font-size:285%;}
   .social-links i {font-size:3em}
   .banner-text p{ font-size: 15px;}
   .banner-text hr{border-top: 5px thick #BBD2C5;}
   .box{width: 300px;}
   .box-img{width: 240px;opacity: 1;}
-  .box h1{letter-spacing: 2px;color: rgba(133, 16, 16, 0.911)}
+  .box h1{letter-spacing: 2px;}
   .box p{font-weight: bold;}
   .skills-grid{position:absolute; font-size: 15px;}
   .skills-grid h1{font-size:30px;}
   .projects-grid{padding-top: 1em; display:grid}
-  .single-container{padding-top: 1em; display:grid}
+  .contact-grid{display: flex; height: 700px;} 
+  .contact-grid h2{font-size: 30px;}
+  .contact-grid h3{font-size: 20px;}
+  .contact-list{margin-top: -50px;}
+  .contact-list i{font-size: 20px;display: inline;padding-right:  1rem;}
   
   
 

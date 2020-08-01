@@ -195,7 +195,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                         <a href="https://github.com/dhony05/4giving" ref="noopener noreferrer" target="_black"><Button colored >Github</Button></a>
-                        <p>In Proj</p>
+                        
                         </CardActions>
                         {/* <CardMenu style = {{color: 'afff'}}>
                             <IconButton name="share"/>
