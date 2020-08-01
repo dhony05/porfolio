@@ -86,13 +86,13 @@ margin: auto;
   border-radius: 50%;
   background: white;
 }
-@media(max-width:700px){
+/* @media(max-width:700px){
   .avatar-img{height: 150px;}
   .banner-text h1{ font-size:170%;}
   .social-links i {font-size:3em}
   .banner-text p{ font-size: 15px;}
   .banner-text hr{border-top: 5px thick #BBD2C5;}
-}
+} */
 /* Contact page css */
 .contact-body{
   margin:auto;
@@ -153,6 +153,7 @@ margin: auto;
   overflow-y: scroll;
   overflow-x: scroll;
 }
+.skills-grid h1{padding-left: 3rem;}
 /* Resume */
 
 /* About Me */
@@ -180,11 +181,7 @@ margin: auto;
   margin-top: 5%; 
   color:white;
   font-family: 'Oxygen' , 'sans-serif';
- 
- 
   opacity: .9;
-  
-  
   border-radius: 10px;
 } 
 
@@ -199,22 +196,31 @@ margin: auto;
 .box h1{
   font-size:  40;
   letter-spacing: 4px;
-  font-weight: 100;
+  font-weight: bold;
+  
 
   
 }
 .box p{
   font-size: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-weight: 100;
   text-align: justify;
 
 }
 
 @media(max-width:700px){
+  .avatar-img{height: 240px;}
+  .banner-text h1{ font-size:200%;}
+  .social-links i {font-size:3em}
+  .banner-text p{ font-size: 15px;}
+  .banner-text hr{border-top: 5px thick #BBD2C5;}
   .box{width: 300px;}
   .box-img{width: 240px;opacity: 1;}
-  .box h1{letter-spacing: 2px;color:#BBD2C5}
-  .box p{letter-spacing: 2px; color:#BBD2C5}
+  .box h1{letter-spacing: 2px;color: rgba(133, 16, 16, 0.911)}
+  .box p{font-weight: bold;}
+  .skills-grid{position:absolute; font-size: 15px;}
+  .skills-grid h1{font-size:30px;}
+  
 
 }
