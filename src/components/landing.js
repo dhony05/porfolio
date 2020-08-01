@@ -9,7 +9,7 @@ class Landing extends Component {
     state = {  }
     render() { 
         return (
-            <div style ={{width:'100%',margin: 'auto'}}>
+            <div style ={{width:'100%',margin: '50%'}}>
               <Grid className="landing-grid">
                   <Cell col={12}>
                       <img 

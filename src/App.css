@@ -33,6 +33,7 @@
 
 }
 
+
 .banner-text{
   background-color: black;
   opacity: .7;
@@ -52,7 +53,7 @@
   color:#BBD2C5;
 }
 .banner-text hr{
-   border-top: 5px dotted #BBD2C5;
+   border-top: 5px thin #BBD2C5;
    width: 50%;
    margin:auto;
 }
@@ -84,6 +85,13 @@ margin: auto;
   padding: 8px;
   border-radius: 50%;
   background: white;
+}
+@media(max-width:700px){
+  .avatar-img{height: 150px;}
+  .banner-text h1{ font-size:170%;}
+  .social-links i {font-size:3em}
+  .banner-text p{ font-size: 15px;}
+  .banner-text hr{border-top: 5px thick #BBD2C5;}
 }
 /* Contact page css */
 .contact-body{
@@ -157,6 +165,8 @@ margin: auto;
   
   overflow-y: scroll hidden;
   overflow-x: scroll hidden;
+
+  
   
   
 }
@@ -198,5 +208,13 @@ margin: auto;
   letter-spacing: 3px;
   font-weight: 100;
   text-align: justify;
+
+}
+
+@media(max-width:700px){
+  .box{width: 300px;}
+  .box-img{width: 240px;opacity: 1;}
+  .box h1{letter-spacing: 2px;color:#BBD2C5}
+  .box p{letter-spacing: 2px; color:#BBD2C5}
 
 }
