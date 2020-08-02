@@ -54,7 +54,7 @@
 }
 
 .banner-text h2{
-  font-size: 40px;
+  font-size: 45px;
   color:#BBD2C5;
 }
 .banner-text hr{
@@ -102,6 +102,8 @@ margin: auto;
   height: 100%;
   justify-content: center;
   padding-top: 5em;
+  overflow-y: scroll hidden;
+  
  
 
 }
@@ -112,6 +114,7 @@ margin: auto;
   height: 550px;
   background:  #BBD2C5;;
   margin-bottom: 20px;
+  
   
 
 
@@ -155,15 +158,17 @@ margin: auto;
   background: url(https://github.com/dhony05/first-page/blob/master/imgs/img/canion.JPG?raw=true) no-repeat  fixed center;;
   background-size: cover ;
   background-attachment: fixed;
-  overflow-y: scroll hidden;
-  overflow-x: scroll hidden;
+  width: auto;	
+  margin:auto;
+  
+
 
   
   
   
 }
 .box-container1{
-  height: 1500px;
+  height: 2000px;
 }
  
 .box{
@@ -205,7 +210,8 @@ margin: auto;
 
 @media(max-width:700px){
   .avatar-img{height: 240px;}
-  .banner-text h1{ font-size:285%;}
+  .banner-text h1{ font-size:270%;}
+  .banner-text h2{ font-size:210%;}
   .social-links i {font-size:3em}
   .banner-text p{ font-size: 15px;}
   .banner-text hr{border-top: 5px thick #BBD2C5;}
@@ -216,7 +222,10 @@ margin: auto;
   .skills-grid{position:absolute; font-size: 15px;}
   .skills-grid h1{font-size:30px;}
   .projects-grid{padding-top: 1em; display:grid}
-  .contact-grid{display: flex; height: 700px;} 
+  .aboutme-body{overflow-y: scroll hidden;}
+  .box-container1{height: 1000px;}
+  .contact-body{overflow-y: scroll;}
+  .contact-grid{display: flex; height: 750px;overflow-y: scroll hidden;} 
   .contact-grid h2{font-size: 30px;}
   .contact-grid h3{font-size: 20px;}
   .contact-list{margin-top: -50px;}
