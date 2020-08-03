@@ -9,7 +9,8 @@ class Skills extends Component {
     }
     render() { 
         return ( 
-            <div className="skills-grid">
+           
+                <div className="skills-grid">
                 <h1 classNa> Skills</h1>
                 <hr/>
                 <Grid> 
@@ -74,7 +75,8 @@ class Skills extends Component {
                 
               
 
-            </div>
+                </div>
+            
          );
     }
 }

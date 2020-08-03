@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import codewars from './codewars.svg'
-// import logo from '../logo.svg'
-// import { Icon} from '@iconify/react';
-// import codewarsIcon from '@iconify/icons-simple-icons/codewars';
 import {Grid,Cell} from 'react-mdl';
 
 class Landing extends Component {
@@ -13,7 +10,7 @@ class Landing extends Component {
               <Grid className="landing-grid">
                   <Cell col={12}>
                       <img 
-                      src="https://dhony05.github.io/first-page/imgs/img/profile.jpg"
+                      src="https://github.com/dhony05/first-page/blob/master/imgs/IMG_2797%202.jpg?raw=true"
                       alt="avatar"
                       className="avatar-img"
 

@@ -3,17 +3,18 @@ import React from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import "./App.css";
 import Main from "./components/main";
-import { Link } from "react-router-dom";
+import {HashRouter, Link } from "react-router-dom";
 
 function App() {
   return (
+    <HashRouter basename="/">
     <div className="demo-big-content">
       <Layout>
         <Header
           className="header-color"
           title={
             <Link style={{ textDecoration: "none", color: "white" }} to="/">
-              MyPorfolio{" "}
+               Profile{" "}
             </Link>
           }
           scroll
@@ -35,7 +36,7 @@ function App() {
         <Drawer
           title={
             <Link style={{ textDecoration: "none", color: "Black" }} to="/">
-              MyPorfolio{" "}
+              Profile{" "}
             </Link>
           }
         >
@@ -59,6 +60,7 @@ function App() {
         </Content>
       </Layout>
     </div>
+    </HashRouter>
   );
 }
 
