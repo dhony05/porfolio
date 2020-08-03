@@ -13,15 +13,7 @@
     background-color: #B2D6FF;    /* Medium blue */
   }
   
-  .sidebar {
-    height: 250px;
-  /*  background-color: #F09A9D;     Red */
-  }
   
-  .content {
-    height: 500px;
-    /*background-color: #599c38;    /*Green */
-  }
   
   .footer {
     height: 200px;
@@ -69,12 +61,7 @@
   }
   /*** Here we are going to use overflow property to recognize all the floated elements its contains
   also to set a background  ***/
-  .page {
-    width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;             /* Add this */
-    background-color: #EAEDF0;    /* Add this */
-  }
+ 
   /**** Here we are going to move  the background color   to a container
   to change the color of the whole background ***/
   .page {
@@ -114,10 +101,7 @@
   
   } */
   
-  .content{
-    padding: 20px;
-  
-  }
+ 
   /*** editing information paragraph **/
   p {
     margin-bottom: 20px;
@@ -155,12 +139,12 @@
   /* Container needed to position the button. Adjust the width as needed */
   .footer-item {
     position:relative;
-    width: 30%;
+    width: 20%;
   }
   
   /* Make the image responsive */
   .footer-item img {
-    width: 20%;
+    width: 10%;
     height: auto;
     position: relative; 
   }
@@ -186,6 +170,90 @@
     opacity: .6;
   }
   
+  
+  
+  /* #result{ */
+    /* flex: center; 
+    padding: 12px 24px;
+  } */
+
+@media(max-width: 700px){
+  #InBigDivision{
+    position: relative;
+    height: auto;
+  }
+  .content{
+
+    float:unset;
+    height: 50%;
+    width: 500px;
+    position:center;
+    margin: 0px;
+  }
+
+ 
+  #contentID{
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+
+  }
+  .page{ padding: 20px;
+  margin:-40px;}
+
+  .sidebar {
+    float: initial;
+    width: 400px;
+    height: auto;
+    padding: 30px;
+
+  }
+  p {
+    margin:0;
+    /* margin-bottom: 10px; */
+    height: auto;
+    
+    width: auto;
+    font-family: 'Times New Roman';
+    font-size:110%;
+    letter-spacing: 1px;
+    position: center;
+    
+  }
+  #contentTypeID{
+    font-family: verdana;
+    font-size: 40%;
+    margin:center;
+    width: auto;
+    
+  
+  }
+  #hideButtonId{
+    padding: 10px;
+    width: 15vw;
+    height: 5vh;
+    display: inline-block;
+    background-color: rgb(227, 255, 234);
+    border-radius: 9px;
+    font-size: 15px;
+    outline: none;
+  }
+  #searchButtonId{
+    background-color: rgb(227, 255, 234);
+    width: 9vw;
+    border-radius: 9px;
+  }
+
+}
+
+@media(min-width:700px){
+  .page {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;             /* Add this */
+    background-color: #EAEDF0;    /* Add this */
+  }
   #hideButtonId{
     padding: 10px;
     width: 9vw;
@@ -202,10 +270,13 @@
     width: 5vw;
     border-radius: 9px;
   }
-  #result{
-    flex: center; 
-    padding: 12px 24px;
+  #contentID{
+    
+    margin-left: 20px;
+
+    margin-bottom: 50px;
   }
+}
   
   
   
