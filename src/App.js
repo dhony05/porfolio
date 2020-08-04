@@ -33,6 +33,7 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
+        {/* add responsive for navigation based on windows */}
         <Drawer
           title={
             <Link style={{ textDecoration: "none", color: "Black" }} to="/">
