@@ -27,7 +27,7 @@
 .avatar-img{
   height: 340px;
   padding-top: 5em;
-  border-radius: 0% 50%;
+  border-radius: 0% 50% 50% 0%;
   opacity: .7;
   
 
