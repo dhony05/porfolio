@@ -4,9 +4,17 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
 
 class NavComponent extends Component {
+  
   render() {
+
+    const styles = {
+      
+        background: "white",
+        color:"white"
+      
+    }
     let width = window.innerWidth;
-    if (width > 700) {
+    if (width > 800) {
       return (
         <div className="demo-big-content">
           <Layout>
@@ -44,10 +52,12 @@ class NavComponent extends Component {
     } else {
       return (
         <div className="demo-big-content">
-          <Layout>
-            <Drawer
+          <Layout  >
+            <Drawer 
+            style={{styles}}
               title={
-                <Link style={{ textDecoration: "none", color: "Black" }} to="/">
+                
+                <Link style={{ textDecoration: "none", color: "red" }} to="/">
                   Profile{" "}
                 </Link>
               }

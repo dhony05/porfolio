@@ -8,7 +8,7 @@ function App() {
   return (
     <HashRouter basename="/">
   
-        <NavComponent>
+        <NavComponent >
 
         </NavComponent>
       

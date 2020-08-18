@@ -40,28 +40,31 @@ class Skills extends Component {
                     skill="Bootstrap"
                     progress="50"
                     />
-                    <SkillBars
-                    skill="Angular"
-                    progress="40"
+                     <SkillBars
+                    skill="React"
+                    progress="45"
                     />
+                    
                     <SkillBars
                     skill="MongoDB"
                     progress="38"
                     />
 
-                    <SkillBars
-                    skill="React"
-                    progress="30"
-                    />
+                   
                     
                     <SkillBars
                     skill="Python"
                     progress="29"
                     />
+                    <SkillBars
+                    skill="Angular"
+                    progress="20"
+                    />
                      <SkillBars
                     skill="GraphQL"
                     progress="15"
                     />
+                    
                     <SkillBars
                     skill="AWS"
                     progress="10"

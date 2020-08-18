@@ -9,15 +9,16 @@ class Landing extends Component {
             <div style ={{width:'100%',margin: '50%'}}>
               <Grid className="landing-grid">
                   <Cell col={12}>
-                      <img 
+        
+                      
+                      <div className="banner-text">
+                          <h1>Software Developer</h1>
+                          <img 
                       src="https://github.com/dhony05/first-page/blob/master/imgs/IMG_2797%202.jpg?raw=true"
                       alt="avatar"
                       className="avatar-img"
 
                       />
-                      
-                      <div className="banner-text">
-                          <h1>Software Developer</h1>
                           <h2>Donelys Familia</h2>
 
                         <hr/>
@@ -25,35 +26,37 @@ class Landing extends Component {
                         <p>Java | JavaScript | Python | SpringBoot | HTML/CSS | Bootstrap  | MySQL | MongoDB | Angular 7 | React | GraphQL</p>
                         <div className="social-links">
                             {/** LinkedIn */}
+                            
                             <a href="https://www.linkedin.com/in/donelysfa/" ref="noopener noreferrer" target="_black">
-                            <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                            <i className=" except ani1 bouci1 fa fa-linkedin-square " aria-hidden="true"/>
                             </a>
+                            
 
                               {/** Github */}
                               <a href="https://github.com/dhony05" ref="noopener noreferrer" target="_black">
-                            <i className="fa fa-github-square" aria-hidden="true"/>
+                            <i className="ani1 bouci1 fa fa-github-square" aria-hidden="true"/>
                             </a>
 
                               {/** Hackerrank */}
                               <a href="https://www.hackerrank.com/donelys05" ref="noopener noreferrer" target="_black">
-                              <i class="fab fa-hackerrank" ></i>
+                              <i className="ani1 bouci1 fab fa-hackerrank" ></i>
                             </a>
                             {/** codewars */}
                             <a href="https://www.codewars.com/users/dhony05" ref="noopener noreferrer" target="_black">
                             {/* <Icon icon={codewarsIcon} className="codewars" /> */}
-                            <img src={codewars} className="codewars" alt="code" />
+                            <img src={codewars} className="ani1 bouci1 codewars" alt="code" />
  
                             </a>
 
                             {/** Wordpress*/}
                             <a href="http://dhonylearning.home.blog/" ref="noopener noreferrer" target="_black">
-                            <i class="fab fa-wordpress-simple"></i>
+                            <i class="ani1 bouci1 fab fa-wordpress-simple"></i>
                             
                             </a>  
 
                              {/** Youtube */}
                              <a href="https://www.youtube.com/channel/UCYsrJPbVtQRvCfeBWY1IrvQ" ref="noopener noreferrer" target="_black">
-                            <i className="fa fa-youtube-square" aria-hidden="true"/>
+                            <i className="ani1 bouci1 fa fa-youtube-square" aria-hidden="true"/>
                             </a>
 
 
