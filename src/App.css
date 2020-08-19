@@ -272,14 +272,14 @@ margin: auto;
   .contact-grid h3{font-size: 20px;}
   .contact-list{margin-top: -50px;}
   .contact-list i{font-size: 20px;display: inline;padding-right:  1rem;}
-  
-  
+  .mdl-progress.mdl-js-progress.progress.is-upgraded.mdl-progress.mdl-js-progress.progress.is-upgraded{ width:62%}
+
 
 }@media(min-width:700px){
   .skills-grid{position:center;}
   .box{padding: 45px}
   .skills-grid{ font-size: 20px; overflow-y: scroll hidden; }
-  
+  .mdl-progress.mdl-js-progress.progress.is-upgraded.mdl-progress.mdl-js-progress.progress.is-upgraded{margin-left:"auto"; width:75%}
 } 
 
 @media screen and (max-width:1024px){
@@ -287,7 +287,10 @@ margin: auto;
     margin: 3px;
     color: rgb(245, 244, 244);
     
+    
 }
+.mdl-progress.mdl-js-progress.progress.is-upgraded.mdl-progress.mdl-js-progress.progress.is-upgraded{ width:62%}
+
 }
 
 .mdl-layout__content.mdl-layout__content{
@@ -362,3 +365,17 @@ margin: auto;
   animation-timing-function: ease;
 
 }
+
+/* Setting springboot icon to gree */
+.iconGreen{
+  color:greenyellow
+}
+
+/* graphql icon */
+.icons8-graphql { 
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmY0MDgxIiBkPSJNMjQuNSw0NS4xNjFMNywzNC44MlYxNC4xOEwyNC41LDMuODM5TDQyLDE0LjE4VjM0LjgyTDI0LjUsNDUuMTYxeiBNOSwzMy42OGwxNS41LDkuMTU5TDQwLDMzLjY4IFYxNS4zMkwyNC41LDYuMTYxTDksMTUuMzJWMzMuNjh6Ij48L3BhdGg+PGNpcmNsZSBjeD0iMjQuNSIgY3k9IjUuNSIgcj0iMy41IiBmaWxsPSIjZmY0MDgxIj48L2NpcmNsZT48Y2lyY2xlIGN4PSIyNC41IiBjeT0iNDMuNSIgcj0iMy41IiBmaWxsPSIjZmY0MDgxIj48L2NpcmNsZT48Y2lyY2xlIGN4PSI4LjUiIGN5PSIzMy41IiByPSIzLjUiIGZpbGw9IiNmZjQwODEiPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjQwLjUiIGN5PSIzMy41IiByPSIzLjUiIGZpbGw9IiNmZjQwODEiPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjguNSIgY3k9IjE1LjUiIHI9IjMuNSIgZmlsbD0iI2ZmNDA4MSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iNDAuNSIgY3k9IjE1LjUiIHI9IjMuNSIgZmlsbD0iI2ZmNDA4MSI+PC9jaXJjbGU+PHBhdGggZmlsbD0iI2ZmNDA4MSIgZD0iTTQyLjcyLDM1SDYuMjhMMjQuNSwyLjk3OEw0Mi43MiwzNXogTTkuNzIsMzNIMzkuMjhMMjQuNSw3LjAyMkw5LjcyLDMzeiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+  background-size: 100%; }
+  

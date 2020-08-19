@@ -36,9 +36,9 @@ class NavComponent extends Component {
                   Resume
                 </a>
 
-                <Link to="/skills">Skills</Link>
+                <Link to="/myskills">Skills</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contactme">Contact me</Link>
               </Navigation>
             </Header>
 
@@ -71,9 +71,9 @@ class NavComponent extends Component {
                   Resume
                 </a>
 
-                <Link to="/skills">Skills</Link>
+                <Link to="/myskills">Skills</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contactme">Contact me</Link>
               </Navigation>
             </Drawer>
 

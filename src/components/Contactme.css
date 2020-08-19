@@ -1,0 +1,111 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box
+}
+
+
+.contact-body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info{
+    display:flex;
+    width:auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.c-card{
+    border-radius: 3%;
+    background: black;
+    opacity: 0.9;
+    padding: 0 40px;
+    margin: 0 10px;
+    width: calc(35% - 20px);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+.c-card-icon{
+ font-size: 35px;  
+ background: #8E0E00;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ width: 60px;
+ height: 60px; 
+ text-align: center;
+ line-height: 60px !important;
+ border-radius: 50%;
+ transition: 0.3s linear;
+ 
+
+}
+.c-card:hover  .c-card-icon{
+    background:none;
+    color:  #8E0E00;
+    transform: scale(1.6);
+
+
+}
+.c-card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition:0.3s linear;
+}
+.c-card a{
+    color:white;
+}
+
+.c-card:hover p{
+   max-height: 40px; 
+   opacity: 1;
+}
+
+@media screen and (max-width:800px){
+    .contact-info{
+       flex-direction: column; 
+    }
+    .c-card{
+        width:100%;
+        max-width: 300px;
+        margin: 10px 0;
+
+    }
+}
+
+/* contact animation  */
+
+.ani1{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+  
+  } 
+  
+  .bouci1:hover{
+    animation-name: bouci1;
+    animation-timing-function: ease;
+  
+  }
+  
+  @keyframes bouci1 {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-30px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+ 
