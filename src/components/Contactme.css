@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
 
 .contact-info{
@@ -75,14 +76,21 @@
 }
 
 @media screen and (max-width:800px){
+    
     .contact-info{
-       flex-direction: column; 
+       position: absolute;
+       flex-direction: column;
+       height: 500px;
+       
     }
     .c-card{
         width:100%;
         max-width: 300px;
         margin: 10px 0;
         height: 200px;
+        
+       
+      
 
     }
 }

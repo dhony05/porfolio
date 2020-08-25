@@ -26,8 +26,6 @@ class Contactme extends Component {
         return (
             <div className="contact-body">
                 <div className="contact-info">
-                    
-          
 
                 <Platforms/>
                     
