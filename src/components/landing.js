@@ -28,13 +28,13 @@ class Landing extends Component {
                             {/** LinkedIn */}
                             
                             <a href="https://www.linkedin.com/in/donelysfa/" ref="noopener noreferrer" target="_black">
-                            <i className=" except ani1 bouci1 fa fa-linkedin-square " aria-hidden="true"/>
+                            <i className=" except ani1 bouci1 fab fa-linkedin-square " aria-hidden="true"/>
                             </a>
                             
 
                               {/** Github */}
                               <a href="https://github.com/dhony05" ref="noopener noreferrer" target="_black">
-                            <i className="ani1 bouci1 fa fa-github-square" aria-hidden="true"/>
+                            <i className="ani1 bouci1 fab fa-github-square" aria-hidden="true"/>
                             </a>
 
                               {/** Hackerrank */}
@@ -56,7 +56,7 @@ class Landing extends Component {
 
                              {/** Youtube */}
                              <a href="https://www.youtube.com/channel/UCYsrJPbVtQRvCfeBWY1IrvQ" ref="noopener noreferrer" target="_black">
-                            <i className="ani1 bouci1 fa fa-youtube-square" aria-hidden="true"/>
+                            <i className="ani1 bouci1 fab fa-youtube-square" aria-hidden="true"/>
                             </a>
 
 
