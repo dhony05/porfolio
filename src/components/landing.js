@@ -56,7 +56,7 @@ class Landing extends Component {
 
                              {/** Youtube */}
                              <a href="https://www.youtube.com/channel/UCYsrJPbVtQRvCfeBWY1IrvQ" ref="noopener noreferrer" target="_black">
-                            <i className="ani1 bouci1 fab fa-youtube-square" aria-hidden="true"/>
+                            <i className="ani1 bouci1 fa fa-youtube-square" aria-hidden="true"/>
                             </a>
 
 
