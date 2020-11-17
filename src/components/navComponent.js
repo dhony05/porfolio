@@ -14,7 +14,7 @@ class NavComponent extends Component {
       
     }
     let width = window.innerWidth;
-    if (width > 800) {
+    if (width > 700) {
       return (
         <div className="demo-big-content">
           <Layout>
